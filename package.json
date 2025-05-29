@@ -1,0 +1,25 @@
+{
+  "name": "express-server-starter",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/NotANumber101/express-server-starter.git#readme",
+  "bugs": {
+    "url": "https://github.com/NotANumber101/express-server-starter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotANumber101/express-server-starter.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --require test/setup.js"
+  },
+  "dependencies": {
+    "chai": "^5.2.0",
+    "jsdom": "^26.1.0",
+    "mocha": "^11.5.0"
+  }
+}
