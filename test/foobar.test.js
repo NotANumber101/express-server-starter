@@ -1,4 +1,4 @@
-const {assert} = require('chai');
+const { assert } = require('chai');
 describe('Array', () => {
   console.log('array test')
   describe('.pop()', () => {
