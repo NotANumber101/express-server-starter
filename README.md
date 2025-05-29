@@ -68,6 +68,7 @@ npm test
 
 ## Project Structure
 
+```bash
 ├── src/
 │   ├── app.js              # Express app instance
 │   ├── routes/             # Route definitions
@@ -82,7 +83,7 @@ npm test
 ├── .gitignore
 ├── package.json
 └── README.md
-
+```
 
 ## Testing Strategy
 
