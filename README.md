@@ -92,6 +92,7 @@ This project uses:
 - Mocha – Test runner
 - Chai – BDD/TDD assertion library
 - JSDOM – JavaScript implementation of the DOM for simulating browser environments
+- Supertest – HTTP assertion library for testing Express routes and APIs
 
 Test coverage includes:
 
