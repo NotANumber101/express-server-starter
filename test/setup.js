@@ -1,7 +1,7 @@
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
-console.log('Executing Test Setup...')
+console.log('Executing JSDOM Test Setup...')
 /**
  * This function takes the HTML response as a string and the desired selector 
  * as inputs and returns the textContent of the corresponding element.
