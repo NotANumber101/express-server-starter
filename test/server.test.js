@@ -1,7 +1,6 @@
 const request = require('supertest');
-const express = require('express');
 
-const app = express();
+const { app } = require('../src/app');
 
 app.get('/user', function(req, res) {
   res.status(200).json({ name: 'john' });

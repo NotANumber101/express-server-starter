@@ -1,7 +1,7 @@
 {
   "name": "express-server-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lightweight and modular Express.js server boilerplate with a focus on testability using Mocha, Chai, and JSDOM.",
   "homepage": "https://github.com/NotANumber101/express-server-starter.git#readme",
   "bugs": {
     "url": "https://github.com/NotANumber101/express-server-starter/issues"
@@ -14,8 +14,12 @@
   "author": "",
   "type": "commonjs",
   "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "mocha --require test/setup.js"
+    "test": "mocha --require test/setup.js",
+    "start": "node src/app.js"
   },
   "dependencies": {
     "chai": "^5.2.0",
